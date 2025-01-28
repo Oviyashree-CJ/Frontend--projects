@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.menu{
+    margin: 30px 20px;
+}
+.menu a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.head{
+   background: url('images/top.webp'); 
+   background-size: cover;
+   height: 400px;
+   width: 100%;
+   padding: 5px;
+   box-sizing: border-box;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   line-height: 30px;
+}
+.content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.content img{
+    height: 400px;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+.content p{
+    width: 700px;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+
+

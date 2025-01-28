@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <div class="container">
+        <form action="#" onsubmit="validate()">
+            <label for="name">Name </label>
+            <input type="text" id="name" class="input">
+            <span id="nameError" class="error"></span>
+            <label for="email">Email </label>
+            <input type="email" id="email" class="input">
+            <span id="emailError" class="error"></span>
+            <input type="submit" value="Sign Up" id="sub">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
